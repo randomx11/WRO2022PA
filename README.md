@@ -15,12 +15,16 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 ## Introduction
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+## The begining
+We started originally with lego, as we thought we could do something using lego and since it was the only thing we had near at the moment, we tried using lego, however, after a bit of testing we noticed that lego was really slow and couldn't handle what we were going to do so, after a bit of time reading the rules... we came to the final choice of moving to arduino and using a raspberry pi.
 
-## How to prepare the repo based on the template
+## First 4 Weeks
+We started experimenting with the pi and doing our first prototype, that prototype was really flawed, we had voltage issues (mainly because the pi 4b only accepts strictly 5.1 Volts 3 Amperes and wont work if it is decreased a bit, so we tried working with x2 3.7 volt 18650 batteries and accidentally connected the 7 volts it gave to the pi 5 volt pin directly, which resulted on the pi bricking due to raspberry pi foundation's decision to remove the polyfuse that should protect everything on the model 4b.
 
-_Remove this section before the first commit to the repository_
+So after a few weeks of waiting and fixing the block detection software, we managed to get a replacement for the raspberry pi 4b, its name: Rock pi. now, we consulted the rules and were aware that this board had wifi/bluetooth capabilities so we decided to just remove the drivers for those modules as that should make them practically unaccessible from the OS.
 
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
+We also fixed our power issues using a [REDACTED] which gave enough power to the "pi" to run for 8 hours! and also power up the arduino board we used for controlling motors/actuators, then we focused mainly on finishing the code and the vehicle itself.
+
+## Week #5
+We are currently working on programming the AI requognition for the block detection system and building the vehicle base is done by a 75%
+The rock pi has booted succesfully and the bluetooth/wifi modules drivers were removed.
