@@ -27,4 +27,7 @@ We also fixed our power issues using a [REDACTED] which gave enough power to the
 
 ## Week #5
 We are currently working on programming the AI requognition for the block detection system and building the vehicle base is done by a 75%
-The rock pi has booted succesfully and the bluetooth/wifi modules drivers were removed.
+The rock pi has booted succesfully and the bluetooth/wifi modules drivers were removed, code is 75% done, we fixed some failures with the actuator for steering and added some cosmetic features like lights.
+
+## Week #6 Competition
+We went to the 21/09/2022 regional competition, tested till 1:40 AM for failures in our system and we finally managed to narrow most and fix them, we are now awaiting for the competition to start to see how good we go!
