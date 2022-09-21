@@ -23,11 +23,11 @@ We started experimenting with the pi and doing our first prototype, that prototy
 
 So after a few weeks of waiting and fixing the block detection software, we managed to get a replacement for the raspberry pi 4b, its name: Rock pi. now, we consulted the rules and were aware that this board had wifi/bluetooth capabilities so we decided to just remove the drivers for those modules as that should make them practically unaccessible from the OS.
 
-We also fixed our power issues using a [REDACTED] which gave enough power to the "pi" to run for 8 hours! and also power up the arduino board we used for controlling motors/actuators, then we focused mainly on finishing the code and the vehicle itself.
+We also fixed our power issues using a SunFounder PiPower which gave enough power to the "pi" to run for 8 hours! and also power up the arduino board we used for controlling motors/actuators, then we focused mainly on finishing the code and the vehicle itself.
 
 ## Week #5
 We are currently working on programming the AI requognition for the block detection system and building the vehicle base is done by a 75%
-The rock pi has booted succesfully and the bluetooth/wifi modules drivers were removed, code is 75% done, we fixed some failures with the actuator for steering and added some cosmetic features like lights.
+The rock pi has booted succesfully and the bluetooth/wifi modules drivers were removed, code is 75% done, we fixed some failures with the actuator for steering and added some cosmetic features like lights, we had a voltage problem with the arduino and had to add x2 9.3V batteries to keep everything stable and have enough power for our 3 servos, it was partially not resolved as we were connecting it on the VIN pin that didn't allow the serial communication to work, we found out that connecting it to the barrel pin that accepts 12 volts fixes it and now the robot is working!
 
 ## Week #6 Competition
 We went to the 21/09/2022 regional competition, tested till 1:40 AM for failures in our system and we finally managed to narrow most and fix them, we are now awaiting for the competition to start to see how good we go!
