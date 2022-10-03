@@ -30,4 +30,9 @@ We are currently working on programming the AI requognition for the block detect
 The rock pi has booted succesfully and the bluetooth/wifi modules drivers were removed, code is 75% done, we fixed some failures with the actuator for steering and added some cosmetic features like lights, we had a voltage problem with the arduino and had to add x2 9.3V batteries to keep everything stable and have enough power for our 3 servos, it was partially not resolved as we were connecting it on the VIN pin that didn't allow the serial communication to work, we found out that connecting it to the barrel pin that accepts 12 volts fixes it and now the robot is working!
 
 ## Week #6 Competition
-We went to the 21/09/2022 regional competition, tested till 1:40 AM for failures in our system and we finally managed to narrow most and fix them, we are now awaiting for the competition to start to see how good we go!
+We went to the 21/09/2022 regional competition, tested till 1:40 AM for failures in our system and we finally managed to narrow most and fix them, we are now awaiting for the competition to start to see how good we go1
+
+after 3 rounds, we classified and ended 5'th we are now going for the nationals.
+
+## Week #7 sunday 8:37 pm
+6 hours trying to fix color detection in open CV, thank you INTEL
