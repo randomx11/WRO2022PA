@@ -35,4 +35,7 @@ We went to the 21/09/2022 regional competition, tested till 1:40 AM for failures
 after 3 rounds, we classified and ended 5'th we are now going for the nationals.
 
 ## Week #7 sunday 8:37 pm
-6 hours trying to fix color detection in open CV, thank you INTEL
+We created the walls for the track, kind of improvised but it works! now we have a better guide to follow. We kept 6 hours trying to fix color detection in open-CV, thank you INTEL, we kept all the weekend focused on how to detect the colors we hope we can fix this fast.
+
+## Week 8 Final days
+Finally we find out how to detect colors, so with this advantage we are one step less to complete our project, we are really happy about how is everthing going after months of effort and sacrifices. The programming is complete, we fix problems with the strutucture avoiding any inesperated problem and It works! We do the 3 rounds! Now is time to finally sleep peacefully and hope everthing goes good tomorrow.
