@@ -1,5 +1,8 @@
-Engineering materials
+#Future Jam
+
 ====
+
+![futurejam](https://user-images.githubusercontent.com/112129112/193986349-58234767-beae-45ed-851f-bba9a4ae4c2f.png)
 
 This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
 
@@ -39,3 +42,6 @@ We created the walls for the track, kind of improvised but it works! now we have
 
 ## Week 8 Final days
 Finally we find out how to detect colors, so with this advantage we are one step less to complete our project, we are really happy about how is everthing going after months of effort and sacrifices. The programming is complete, we fix problems with the strutucture avoiding any inesperated problem and It works! We do the 3 rounds! Now is time to finally sleep peacefully and hope everthing goes good tomorrow.
+
+## Week 8, 11:45 PM
+The robot is now running and did the 3 laps, (actually 4) we are very happy at the moment and are getting ready for the national's this morning!
